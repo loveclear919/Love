@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="icon" href="images/x1.jpg">
+    <style>
+        html {
+            cursor: url("images/67992.png"), pointer;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol {
+            list-style: none;
+        }
+        body {
+            background-image: url("images/铃兰之旅.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .video {
+            width: 100%;
+            height: 50px;
+            border-radius: 0%;
+            background-color: rgb(241,243,244)
+        }
+        .header {
+            height: 464px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .header iframe {
+            width: 700px;
+            height: 464px;
+            border: 0;
+        }
+        marquee a {
+            text-decoration: none;
+        }
+        .header .header-left {
+            width: 492px;
+            height: 100%;
+            background-color: blue;
+        }
+        .header .header-right {
+            width: 492px;
+            height: 100%;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+
+<body>
+    <audio class="video" src="resource/song.m4a" controls></audio>
+    <marquee>
+        <a href="images/loveyou.png" target="tt">我爱你 就像风走了千万里 从不问归期</a>
+    </marquee>
+    <header class="header">
+        <div class="header-left"></div>
+        <iframe name="tt"></iframe>
+        <div class="header-right"></div>
+    </header>
+    <div class="middle-content">
+        
+    </div>
+</body>
+
+
+</html>
